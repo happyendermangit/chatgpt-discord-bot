@@ -1,17 +1,17 @@
 # chatgpt Discord bot
 Chatgpt in a discord bot!
 
-Here is the tutorial : https://youtu.be/2JYNd0IsnTg
+Here is the tutorial : https://youtu.be/wq3sy78inyg
 
 ### Setup : 
 
 ```bash
-$ git clone https://github.com/happyendermangit/chatgpt-discord-bot.git
-$ cd chatgpt-discord-bot
-$ pip uninstall openai
-$ pip install openai
-$ pip install discord 
-$ python main.py
+git clone https://github.com/happyendermangit/chatgpt-discord-bot.git
+cd chatgpt-discord-bot
+pip uninstall openai
+pip install openai
+pip install discord 
+python main.py
 ```
 
 ### Config : 
