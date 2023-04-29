@@ -20,3 +20,12 @@ token = "" # Discord bot token
 openai.api_key = ""  # Openai token
 channel_id = 0 # Channel id 
 ```
+
+
+### How to use it in replit?
+
+use this [code](https://github.com/happyendermangit/chatgpt-discord-bot/blob/main/CODE_FOR_REPLIT.py), then make these secrets:
+```ini
+TOKEN=Discord bot token
+OPENAI_TOKEN= Openai api key
+```
