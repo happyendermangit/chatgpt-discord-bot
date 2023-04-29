@@ -5,13 +5,13 @@ from discord.ext import commands
 intents = discord.Intents.default()
 intents.message_content = True
 client = commands.Bot(command_prefix='',intents=intents)
-token = os.getenv("put your env name here") # Discord Bot Token 
+token = os.getenv("TOKEN") # Discord Bot Token 
 
 channel_id = 0 # Channel ID 
 msgs = [{"role":"system",'content':'You are a helpful assistant based on gpt-3.5-turbo. Your name is ChatGPT.'}]
 def chat(c):
     global msgs 
-    openai.api_key = os.getenv("TOKEN") # OpenAI API Key
+    openai.api_key = os.getenv("OPENAI_TOKEN") # OpenAI API Key
     msgs.append({"role":"user","content":c})
     cbot = openai.ChatCompletion.create(model='gpt-3.5-turbo',messages=msgs)
     msgs.append(cbot['choices'][0]['message'])
