@@ -11,7 +11,7 @@ channel_id = 0 # Channel ID
 msgs = [{"role":"system",'content':'You are a helpful assistant based on gpt-3.5-turbo. Your name is ChatGPT.'}]
 def chat(c):
     global msgs 
-    openai.api_key = os.getenv("put your env name here") # OpenAI API Key
+    openai.api_key = os.getenv("TOKEN") # OpenAI API Key
     msgs.append({"role":"user","content":c})
     cbot = openai.ChatCompletion.create(model='gpt-3.5-turbo',messages=msgs)
     msgs.append(cbot['choices'][0]['message'])
