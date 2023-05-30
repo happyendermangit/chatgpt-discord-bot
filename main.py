@@ -1,3 +1,8 @@
+## MADE BY HAPPY ENDERMAN ##
+## MADE BY HAPPY ENDERMAN ##
+## MADE BY HAPPY ENDERMAN ##
+## MADE BY HAPPY ENDERMAN ##
+
 import discord
 import openai 
 from discord.ext import commands 
